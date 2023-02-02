@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+
+  background-color: #333;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #ebebeb;
+}
+h1,
+h2,
+p {
+  text-align: center;
+}
+div#principal {
+  max-width: 50%;
+}
+#alerta {
+  display: none;
+  color: #333;
+  background-color: #ebebeb;
+  max-height: 100%;
+  position: absolute;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 1em;
+}
+#alerta button {
+  color: red;
+}
+.ativo {
+  display: flex !important;
+}
